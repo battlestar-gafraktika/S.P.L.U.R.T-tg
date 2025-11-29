@@ -16,6 +16,11 @@
 	LAZYADD(alt_titles, extra_titles)
 	. = ..()
 
+/datum/job/bridge_assistant
+	alt_titles = list(
+		"Bridge Greeter"
+	)
+
 /datum/job/chief_engineer/New()
 	var/list/extra_titles = list(
 		"Head Engineer",
